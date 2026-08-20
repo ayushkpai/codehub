@@ -1,23 +1,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #1f2328;
-  --border: #d1d9e0;
-  --muted: #656d76;
-  --accent: #0969da;
-  --surface: #f6f8fa;
-  --header-bg: #24292f;
+  --background: #0d1117;
+  --foreground: #e6edf3;
+  --border: #30363d;
+  --border-muted: #21262d;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-hover: #79c0ff;
+  --surface: #161b22;
+  --header-bg: #010409;
+  --success: #3fb950;
+  --success-bg: #238636;
+  --success-hover: #2ea043;
+  --counter-bg: rgba(110,118,129,0.4);
+  --nav-active: #f78166;
+  --input-bg: #0d1117;
+  --hover-bg: #1c2128;
+  --btn-bg: #21262d;
+  --btn-border: #363b42;
+  --btn-hover: #30363d;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-border: var(--border);
+  --color-border-muted: var(--border-muted);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
   --color-surface: var(--surface);
   --color-header-bg: var(--header-bg);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-success-hover: var(--success-hover);
+  --color-counter-bg: var(--counter-bg);
+  --color-nav-active: var(--nav-active);
+  --color-input-bg: var(--input-bg);
+  --color-hover-bg: var(--hover-bg);
+  --color-btn-bg: var(--btn-bg);
+  --color-btn-border: var(--btn-border);
+  --color-btn-hover: var(--btn-hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -25,4 +49,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  font-size: 14px;
 }
